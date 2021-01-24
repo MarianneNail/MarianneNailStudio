@@ -31,7 +31,7 @@
   <body style="padding-top:51px">
 <?php
 session_start();
-$conn=new mysqli('%.%.%.%','marianne','ncutm514','nail');
+$conn=new mysqli('%','marianne','ncutm514');
 $query="SELECT * FROM `帳戶`";
 $result=$conn->query($query);
 $rows=$result->num_rows;
